@@ -338,7 +338,8 @@
     font-size: 16px;
   }
   .benefits_item_image {
-    right: 50px;
+    right: 40px;
+    bottom: -60px;
   }
   .b_snd_img {
     right: 13px;

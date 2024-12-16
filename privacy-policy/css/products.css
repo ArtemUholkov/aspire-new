@@ -13,12 +13,46 @@
   position: relative;
   border-radius: 30px; /* Adjust as needed */
   background-color: #fefefe; /* Solid background inside the border */
-  width: 493px; /* Maintain the specified width */
-  padding: 35px 28px;
+  width: 600px; /* Maintain the specified width */
+  padding: 21px 28px 19px;
   z-index: 1;
   overflow: hidden;
 }
-
+.sema_text_wrap {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.sema_cross {
+  color: #00e0ff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 24px */
+  text-decoration: line-through;
+  text-decoration-line: strikethrough;
+  text-transform: uppercase;
+}
+.sema_norm {
+  color: var(--hot-pink-primary, #ff00b8);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.blue_nrom {
+  color: #00e0ff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%; /* 24px */
+  text-transform: uppercase;
+}
 .products_product::before {
   content: '';
   position: absolute;
@@ -48,7 +82,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 .product_benefit_item {
   display: flex;
@@ -98,7 +132,7 @@
   width: 139px;
   height: auto;
   position: relative;
-  right: 0;
+  right: 80px;
   transition: all 0.5s;
 }
 .products_product:hover .abs_img_text_wrap_img {
@@ -139,6 +173,7 @@
 .pr_slide {
   align-items: center !important;
   justify-content: center !important;
+  max-width: 650px;
 }
 .pr_slide {
   height: auto !important;
@@ -149,15 +184,21 @@
 .mob_vial {
   display: none;
 }
+.mob_swrap {
+  display: none;
+}
 @media (max-width: 1880px) {
   .products_product {
     width: 100%;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
   .products {
     padding-left: 100px;
     padding-right: 100px;
+  }
+  .abs_img_text_wrap_img {
+    right: 20px;
   }
 }
 @media (max-width: 1200px) {
@@ -175,7 +216,7 @@
 @media (max-width: 1060px) {
   .products_product {
     width: 327px;
-    height: 529px;
+    height: 500px;
   }
   .pr_slide {
     height: auto !important;
@@ -225,6 +266,18 @@
   }
   .products {
     padding-top: 100px;
+  }
+  .desk_swrap {
+    display: none;
+  }
+  .mob_swrap {
+    display: block;
+  }
+  .sema_cross {
+    font-size: 20px;
+  }
+  .sema_norm {
+    font-size: 20px;
   }
 }
 .swiper-pagination3 {

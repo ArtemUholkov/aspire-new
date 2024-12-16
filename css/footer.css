@@ -11,7 +11,7 @@ footer {
   z-index: 1;
   overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-end;
   gap: 124px;
 }
@@ -39,6 +39,7 @@ footer {
   justify-content: center;
   margin-right: auto;
   gap: 31px;
+  align-self: center;
 }
 .footer-logo {
   height: 58px;

@@ -1,0 +1,29 @@
+.policy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.policy_upd {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.title-sec {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.cta_wrapper ul {
+  padding-left: 0; /* Removes the default padding on the UL */
+  margin-left: 20px; /* Adds spacing for proper bullet alignment */
+  list-style-position: outside; /* Ensures bullets are outside the content block */
+}
+
+.cta_wrapper li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px; /* Use margin instead of padding for better spacing */
+  list-style-type: disc;
+}
