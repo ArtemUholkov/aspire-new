@@ -16,7 +16,7 @@
 }
 .cta_wrapper ul {
   padding-left: 0; /* Removes the default padding on the UL */
-  margin-left: 20px; /* Adds spacing for proper bullet alignment */
+  margin-left: 25px; /* Adds spacing for proper bullet alignment */
   list-style-position: outside; /* Ensures bullets are outside the content block */
 }
 
