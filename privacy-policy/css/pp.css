@@ -19,7 +19,15 @@
   margin-left: 25px; /* Adds spacing for proper bullet alignment */
   list-style-position: outside; /* Ensures bullets are outside the content block */
 }
-
+.line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .cta_wrapper li {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
